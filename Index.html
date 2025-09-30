@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Patil | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/YOUR_FONT_AWESOME_KIT.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Yash Patil</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p>Hello, I'm</p>
+                <h1>Yash Patil</h1>
+                <h2>A Student at JSPM RSCOE Tathawade, aspiring **Software Developer**.</h2>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yash-patil-630618363" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/patil_yash_197?igsh=MW4xd2d5em1mZ3NrYw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:Yashanil1971@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <a href="projects.html" class="cta-button">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="yash_photo.jpg" alt="Yash Patil Professional Photo">
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h2>My Core Skills</h2>
+            <div class="skills-container">
+                <button class="skill-tab active" onclick="showSkills('programming')">Programming</button>
+                <button class="skill-tab" onclick="showSkills('frameworks')">Frameworks</button>
+                <button class="skill-tab" onclick="showSkills('tools')">Tools & Databases</button>
+            </div>
+
+            <div id="programming" class="skill-content active">
+                <span>Java</span>
+                <span>Python</span>
+                <span>C++</span>
+                <span>HTML/CSS/JS</span>
+            </div>
+            <div id="frameworks" class="skill-content">
+                <span>React</span>
+                <span>Spring Boot</span>
+                <span>Node.js</span>
+                <span>Bootstrap</span>
+            </div>
+            <div id="tools" class="skill-content">
+                <span>Git/GitHub</span>
+                <span>VS Code</span>
+                <span>MySQL</span>
+                <span>MongoDB</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Yash Patil. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
